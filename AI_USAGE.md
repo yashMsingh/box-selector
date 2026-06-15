@@ -13,7 +13,7 @@ All AI usage is disclosed below as required by the assignment brief.
 
 ## How the Work Was Divided
 
-The project was structured into 5 phases. For each phase, I wrote a
+The project was structured into 6 phases. For each phase, I wrote a
 detailed prompt specifying exact models, fields, algorithm logic, test
 cases, and constraints. Claude generated the initial code from those
 prompts.
@@ -47,6 +47,9 @@ format.
 Specified: README structure and content, this AI_USAGE.md,
 and .gitignore.
 
+### Phase 6 — Frontend UI
+Specified: Single-page HTML/CSS/JS interface, using Django views to serve the template, dark mode CSS variables, full animation definitions, and frontend API fetch logic.
+
 ---
 
 ## What I Accepted
@@ -56,6 +59,7 @@ and .gitignore.
   test case manually before accepting)
 - Serializer and view structure (matched the contracts I specified)
 - README structure and API reference examples
+- Frontend single-page HTML/CSS/JS (matched design constraints)
 
 ---
 

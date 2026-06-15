@@ -2,6 +2,7 @@
 
 A Django REST API that recommends the most cost-efficient shipping box
 for an ecommerce order, based on product dimensions and weight.
+Includes a modern, interactive single-page frontend.
 
 ---
 
@@ -48,6 +49,7 @@ The algorithm runs two checks against each box, cheapest-first:
 | Database | SQLite (dev) |
 | Testing | pytest + pytest-django |
 | Language | Python 3.11+ |
+| Frontend | Vanilla JS, HTML5, CSS3 |
 
 ---
 
@@ -68,6 +70,9 @@ box_selector/
 │   ├── urls.py                 # API routes
 │   ├── fixtures/
 │   │   └── initial_data.json   # Seed data (5 products, 6 boxes)
+│   ├── templates/
+│   │   └── shipping/
+│   │       └── index.html      # Single-page frontend UI
 │   └── tests/
 │       ├── test_selector.py    # 12 unit tests — algorithm only
 │       ├── test_api.py         # 14 API tests — endpoints
@@ -114,7 +119,8 @@ python manage.py loaddata shipping/fixtures/initial_data.json
 python manage.py runserver
 ```
 
-API is live at `http://localhost:8000/`
+API is live at `http://localhost:8000/api/`
+The Frontend UI is live at `http://localhost:8000/`
 
 ---
 
