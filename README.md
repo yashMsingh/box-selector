@@ -87,7 +87,7 @@ box_selector/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/box-selector.git
+git clone https://github.com/yashMsingh/box-selector.git
 cd box-selector
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
